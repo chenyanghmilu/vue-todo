@@ -1,24 +1,2 @@
-# vue-todo
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+build a vue todos app in one hour,
+use [jsonplaceholder](https://jsonplaceholder.typicode.com/todos) as data API.
