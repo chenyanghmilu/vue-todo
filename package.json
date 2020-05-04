@@ -2,14 +2,18 @@
   "name": "vue-todo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://chenyanghmilu.github.io/vue-todos/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "gh-pages": "^2.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
   },
